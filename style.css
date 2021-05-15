@@ -1,0 +1,25 @@
+h2 {
+    color: green;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+body{
+    background-color: navajowhite;
+}
+ 
+h3{
+    color: red;
+    font-size: 80px;
+    text-align: center;
+}
+
+h4{ 
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+     font-size: 15px;
+     text-align: center;
+}
