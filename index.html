@@ -11,33 +11,33 @@
     <link rel="stylesheet" href="style.css">
     <title>ASA</title>
 </head>
-<body >
+<main>
+
   <!-- Titre-->
 
-    <div class="p-5 mb-2 bg-success text-white d-flex justify-content-center">
-    <h1>Association pour la Sauvegarde des Animaux</h1>
+    <div class="p-5 mb-2 bg-success text-white justify-content-center">
+      <h1>Association pour la Sauvegarde des Animaux</h1>
     </div>
-  </div>
 
   <!--Fentre Modal -->
 <div class="modal" tabindex="-1" role="dialog" id="evenement">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
   <div class="modal-body">
-    <h5>Oubliez pas notre Evenement</h5>
+    <h5>Oubliez pas notre Evènement</h5>
     <p><a href="evenement.html" role="button" class="btn btn-success popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">Inscriptions</a></p>
     <hr>
     <h5> Besoin d'Info ?</h5>
-    <p><a href="mailto:chouphaidana@ik.mr" class="tooltip-test" title="Tooltip">Contactez Nous</a></p>
+    <p><a href="mailto:chouphaidana@ik.me" class="tooltip-test" title="Tooltip">Contactez-Nous</a></p>
   </div>
 </div>
 </div>
 </div>
-<!--<div class="modal" tabindex="-1" role="dialog" id="evenement">
+<div class="modal" tabindex="-1" role="dialog" id="evenement">
     <div class="modal-dialog modal modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Oublier pas notre Evenement !!!</h5>
+          <h5 class="modal-title">Oublier pas notre Evènement !!!</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -51,34 +51,50 @@
             </div>
           </div>
     </div>
-  </div>-->
-  
+  </div>
 
-  <!-- Navigation-->
+    <!-- Navigation-->
 
-  <ul class="nav nav-pills nav-fill">
-    <li class="nav-item">
-      <a class="nav-link active" href="index.html">Acccueil</a> 
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="evenement.html" data-toggle="modal" data-target="#evenement">Evenement</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled">Passer au Végétal : Recettes</a>
-    </li>
+    <header class="row mb-4 mt-3">
+      <div class="col-12">
+          <nav class="navbar navbar-expand justify-content-end navbar-black">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item m-1">
+                          <a href="index.html" class="nav-link active">Accueil</a>
+                      </li>
+                      <li class="nav-item m-1">
+                          <a href="evenement.html" class="nav-link">Evènement</a>
+                      </li>
+                      <li class="nav-item m-1">
+                          <a href="#" class="nav-link disabled">Passer au Végétal : Nos Recettes</a>
+                      </li>
+                      <li class="nav-item m-1">
+                          <a href="https//www.cotizup.com/don-asa" class="nav-link">Faire un Don</a>
+                      </li>
+                      <li class="nav-item m-1">
+                          <a href="#" class="nav-link">Nos Actions</a>
+                      </li>
+                      <li class="nav-item m-1">
+                          <a href="mailto:chouphaidana@ik.me" class="nav-link">Nous contacter</a>
+                      </li>  
+                  </ul>
 
-    <li class="nav-item">
-      <a class="nav-link" href="https://www.cotizup.com/don-asa">Faire un Don</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled">Nos Actions</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="mailto:chouphaidana@ik.me">Contactez Nous</a>
-    </li>
-  </ul> 
+                  <!--Barre de Recherche -->
+
+                  <form class="form-inline my-2 my-lg-0 justify-content-end">
+                    <input class="form-control mr-sm-2" type="rechercher" placeholder="Rechercher" aria-label="Rechercher">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+                  </form>
+              </div>
+          </nav>
+      </div>            
+  </header>
     <div class="p-3 mb-2 text-dark d-flex justify-content-center">
-<h2>Bienvenue chez ASA : Association Francaise , Loi 1901 a but non lucratif , qui lutte chaque jour pour le bien etre et la sauvegarde du monde animal. </h2>
+<h2>Bienvenue chez ASA : Association Francaise, Loi 1901 à but non lucratif, qui lutte chaque jour pour le bien -être et la sauvegarde du monde animal. </h2>
     </div>
 
     <!--Carousel-->
@@ -87,7 +103,7 @@
   <div class="carousel-inner">
     <div class="carousel-item">
       <div class="d-flex justify-content-center">
-      <img src="Canard.jpg" style ="width:70%; height: 600px; align-content: center;"alt="Canards">
+      <img src="Canard.jpg" style ="width:70%; height: 600px; align-content: center;" alt="Canards">
     </div>
   </div>
     <div class="carousel-item">
@@ -136,17 +152,16 @@
   </a>
 </div>
 
-<!--Progress Bar-->
-
   <!--Bar de Progres-->
 
   <div class="progress">
     <div class="progress-bar bg-danger" role="progressbar" style="width: 41%;" aria-valuenow="41" aria-valuemin="0" aria-valuemax="100">Montant des Dons : 6734€</div>
   </div>
+
 <!--On as besoin de vous : Don-->
 
 <div class="alert alert-danger d-flex justify-content-center" role="alert">
-  NOUS AVONS BESOIN DE VOUS PLUS QUE TOUS !!! FAITES UN DON
+  NOUS AVONS BESOIN DE VOUS PLUS QUE TOUT !!! FAITES UN DON
 </div>
 
 <!--Paragraphe-->
@@ -172,7 +187,6 @@
         </p>
       </div>
     </div>
-  </div>
 
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -183,7 +197,8 @@
 </footer>
 <!-- Footer -->
 <!--Script JavaScipt-->
-
+</div>
+</main>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
