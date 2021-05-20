@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&display=swap');
-
+h1{
+    font-size: 30px;
+}
 
 body{
     background:white;
