@@ -11,16 +11,16 @@
     <link rel="stylesheet" href="style.css">
     <title>ASA</title>
 </head>
-<main class="container-fluid">
 
   <!-- Titre-->
 
+  <header class="row mb-4 mt-3">
   <div class="p-3 mb-2 bg-success text-white d-flex justify-content-center">
     <h1>ASA : Association pour la Sauvegarde des Animaux</h1>
 </div>
 
   <!--Fentre Modal -->
-  
+
 <div class="modal" tabindex="-1" role="dialog" id="evenement">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -56,11 +56,23 @@
 
     <!-- Navigation-->
 
-    <header class="row mb-4 mt-3">
-      <div class="col-12">
-          <nav class="navbar navbar-expand-md justify-content-end navbar-black bg-light">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+          <nav class="navbar navbar-expand-lg navbar-black bg-light">
+            <a href="index.html" class="navbar-brand">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg>
+            </a>
+              <button 
+              type="button"
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-left-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm10.096 3.146a.5.5 0 1 1 .707.708L6.707 9.95h2.768a.5.5 0 1 1 0 1H5.5a.5.5 0 0 1-.5-.5V6.475a.5.5 0 1 1 1 0v2.768l4.096-4.097z"/>
+                </svg>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
@@ -74,7 +86,7 @@
                           <a href="#" class="nav-link disabled">Passer au Végétal : Nos Recettes</a>
                       </li>
                       <li class="nav-item m-1">
-                          <a href="https//www.cotizup.com/don-asa" class="nav-link">Faire un Don</a>
+                          <a href="https://www.cotizup.com/don-asa" class="nav-link">Faire un Don</a>
                       </li>
                       <li class="nav-item m-1">
                           <a href="#" class="nav-link disabled">Nos Actions</a>
@@ -84,8 +96,7 @@
                       </li>  
                     </ul>
               </div>
-          </nav>
-      </div>            
+          </nav>           
   </header>
     <div class="p-3 mb-2 text-dark d-flex justify-content-center">
 <h2>Bienvenue chez ASA: Association Francaise, Loi 1901 à but non lucratif, qui lutte chaque jour pour le bien-être et la sauvegarde du monde animal. </h2>
@@ -160,27 +171,43 @@
 
 <!--Paragraphe-->
 <script type="text/javascript" src="https://www.planetoscope.com/widget.php?id=1172&f=4"></script>
-
-<h3>53 000 000 000</h3>
 </br>
-<h4>Sa vous parles ? C'est énorme ? Et si je vous dit : 1681 c'est mieux ?</h4>
 </br>
-<p> Evidement sa parait énorme mais 1681 c'est le nombre d'animaux <strong> Exécutés chaque seconde </strong> pour nous alimenter ou pour notre propre confort ... 1681 animaux par seconde c'est 53 000 000 000 , ( ou si vous arriver pas a lire le nombre de 0 c'est 53 Milliards )</p>
+<h3>Le chiffre qui défile vous parait énorme ? </h3>
+  <h4>Et si je vous dit: 2000 par seconde c'est plus facile a lire ? ( Pourtant il n'en est pas moin gros pour autant !!!</h4>
+</br>
+<p> Evidement sa parait énorme mais 2000 c'est le nombre d'animaux <strong> Exécutés chaque seconde </strong> pour nous alimenter ou pour notre propre confort ... 2000 animaux par secondes</p>
+</br>
+<p>Selon<strong> L214 </strong> en 2019 se seraient pas moins de 80 Milliards d'animaux terrestres et plus de 300 Milliards d'animaux aquatique issus d'élevage abattus dans le monde , auquels s'ajoutent plus de 1 000 Milliards de poissons sauvages ...</p>
+<p>Des chiffres qui restent difficile de calculé trés précisement </p>
+  <!-- Liste -->
+<div class="container">
+  <div class="row">
+  <div class="list-group col">
+    <button type="button" class="list-group-item list-group-item-action">76 320 000 000 de Poulets</button>
+    <button type="button" class="list-group-item list-group-item-action">1 809 230 000 de Porcs</button>
+  </div>
+  <div class="list-group col">
+    <button type="button" class="list-group-item list-group-item-action">79 449 000 de Dindes</button>
+    <button type="button" class="list-group-item list-group-item-action">670 867 000 de Moutons</button>
+  </div>
+  </div>
+  <div class="row">
+    <div class="list-group col">
+    <button type="button" class="list-group-item list-group-item-action">546 670 000 de Chévres</button>
+    <button type="button" class="list-group-item list-group-item-action">130 461 000 de Pissons d'Elevages</button>
+    </div>
+    <div class="list-group col">
+    <button type="button" class="list-group-item list-group-item-action">369 316 000 de Vaches et Vaux</button>
+    <button type="button" class="list-group-item list-group-item-action">115 372 000 de Poissons péches en Mer</button>
+  </div>
+</div>
+</div>
+</div>
 <p>Notre association a pour but de montrer les comportements déviant contre les animaux et les emmener en en justice.</p>
 </br>
   <p>Mais montrer également qu'un autre monde est possible :</P>
   </br>
-
-  <!-- Liste -->
-
-  <div class="list-group">
-    <button type="button" class="list-group-item list-group-item-action active">  Réduire sa consommation annimal : Devenir Végétarien</button>
-    <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
-    <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
-    <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
-    <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
-  </div>
-
 
 <!-- Footer -->
 
