@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<br lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,34 +11,47 @@
     <link rel="stylesheet" href="style.css">
     <title>ASA : Evenement</title>
 </head>
-<body>
+<main class="container-fluid">
+
+  <!-- Titre -->
+
     <div class="p-3 mb-2 bg-success text-white d-flex justify-content-center">
-        <h1>Association pour la Sauvegarde des Animaux</h1>
+        <h1>ASA : Association pour la Sauvegarde des Animaux</h1>
     </div>
     
     <!-- Navigation-->
 
-    <ul class="nav nav-pills nav-fill">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Acccueil</a> 
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="evenement.html">Evenement</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled">Passer au Végétal : Recettes</a>
-      </li>
-  
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.cotizup.com/don-asa">Faire un Don</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled">Nos Actions</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="mailto:chouphaidana@ik.me">Contactez Nous</a>
-      </li>
-    </ul> 
+<header class="row mb-4 mt-3">
+  <div class="col-12">
+    <nav class="navbar navbar-expand-md justify-content-end navbar-black bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item m-1">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item m-1">
+                    <a href="evenement.html" class="nav-link active">Evènement</a>
+                </li>
+                <li class="nav-item m-1">
+                    <a href="#" class="nav-link disabled">Passer au Végétal : Nos Recettes</a>
+                </li>
+                <li class="nav-item m-1">
+                    <a href="https//www.cotizup.com/don-asa" class="nav-link">Faire un Don</a>
+                </li>
+                <li class="nav-item m-1">
+                    <a href="#" class="nav-link disabled">Nos Actions</a>
+                </li>
+                <li class="nav-item m-1">
+                    <a href="mailto:chouphaidana@ik.me" class="nav-link">Nous contacter</a>
+                </li>  
+              </ul>
+        </div>
+    </nav>
+</div>
+  </header>
       <div class="p-3 mb-2 text-dark d-flex justify-content-center">
   <h2>Bienvenue chez ASA : Association Francaise , Loi 1901 a but non lucratif , qui lutte chaque jour pour le bien etre et la sauvegarde du monde animal. </h2>
       </div>
@@ -53,7 +66,71 @@
   <div class="alert alert-danger d-flex justify-content-center" role="alert">
     NOUS AVONS BESOIN DE VOUS PLUS QUE TOUS !!! FAITES UN DON
   </div>
-<p>Suite a notre <strong> Flash Mob </strong> le 1 Aout 2020 , et les 5000 Euros récoltés , et tous vos commentaires sur notre page Facebook , nous avons décidéz de recommencer l'experience ....</p>
+<p>Suite a notre Flash Mob le 1 Aout 2020 , et les 5000 Euros récoltés , et tous vos commentaires sur notre page Facebook , nous avons décidéz de recommencer l'experience ....</p>
+</br>
+<p>Alors on remais ca ?
+ <strong>Dimanche 26 Septembre 2021</strong>  , vous faites quoi ?
+ Rejpignez-Nous : Une fois de plus c'est avec <strong>Votre Invertissement</strong> que les chose changerons ...
+</p>
+</br>
+  <!-- Formulaires -->
+
+  <form>
+    <h5>Inscription Evenement :</h5>
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Nom :</label>
+        <input type="name" class="form-control" id="inputfirstname1" placeholder="Tintin">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Prénom :</label>
+        <input type="name" class="form-control" id="inputsecondname1" placeholder="Milou">
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Email :</label>
+        <input type="email" class="form-control" id="inputemail1" placeholder="chouphaidana@ik.me">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Confirmer Email :</label>
+        <input type="email" class="form-control" id="inputemail1" placeholder="chouphaidana@ik.me">
+      </div>
+    </div>
+    <div class="row">
+    <div class="form-group col-md-6">
+      <label for="inputAddress">Votre Adresse :</label>
+      <input type="text" class="form-control" id="inputaddress1" placeholder="123 Rue des Champs Elysées">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputAddress">Complément Adresse :</label>
+      <input type="text" class="form-control" id="inputaddress2" placeholder="Etage-Entrée-Etc">
+    </div>
+  </div>
+      <div class="form-group col-md-12">
+        <label for="inputCity">Ville :</label>
+        <input type="text" class="form-control" id="inputcity1" placeholder="Paris">
+      </div>
+      <div class="form-group col-md-12">
+        <label for="inputState">Pays :</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choisir</option>
+          <option>France</option>
+          <option>Belgique</option>
+          <option>Luxembourg</option>
+          <option>Suisse</option>
+          <option>Monaco</option>
+        </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="Newsletter">
+        <label class="form-check-label" for="gridCheck">
+         M'inscrire a la Newsletter
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-success">M'inscrire</button>
+  </form>
   
 <!-- Video-->
 
@@ -61,8 +138,7 @@
     <iframe class="embed-responsive-item" src="Flashmob.mp4" style="width: 100%;height: 400px;" allowfullscreen>
     </iframe>
   </div>
-
-
+</main>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
